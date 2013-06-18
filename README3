@@ -1,0 +1,36 @@
+clase-de-github
+===============
+
+Este es un ejemplo de Github 
+
+Una vez instalado GIT, debes configurarlo:
+
+git config --global user.name "leafarcode"
+git config --global useremail "leafar07j@gmail.com"
+
+Generando tu public key:
+
+ssh-keygen
+
+Leyendo tu llave para copiarla a Github
+
+cat ~/.ssh/id_rsa.pub
+
+Arrancando tu proyecto
+
+git init
+
+Creando un archivo de prueba
+touch README
+
+Agregas un archivo
+git add  README
+
+Realizas un commit de tu archivo
+git commit -m "tu primer commit"
+
+Salvas los cambios 
+git push origin master
+
+
+
